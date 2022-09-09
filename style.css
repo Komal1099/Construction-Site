@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+h1{
+    color: rgb(72, 68, 68);
+}
 h2 {
     letter-spacing: 5px;
 }
@@ -61,4 +63,32 @@ h2 {
 .content p {
     font-size: 20px;
     color: rgb(96, 94, 94);
+}
+.img-box img{
+    transition: all 4s ease-in-out;
+}
+.img-box img:hover{
+    transform: scale(2,2);
+}
+
+.img-size{
+    height: 60px;
+    width: 60px;
+    
+}
+.button-style a{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.icon_img{
+    width: 50%;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.customer-description img{
+    width: 50%;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
 }

@@ -10,6 +10,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <title>Hello, world!</title>
 </head>
 
@@ -50,7 +52,7 @@
             src="https://demo.accesspressthemes.com/construction/wp-content/uploads/2016/09/construction-new-slider-11.jpg"
             class="d-block w-100 img" alt="...">
           <div class="box">
-            <h1>Fastest-Growing<br>construction company</h1>
+            <h1 class="text-dark">Fastest-Growing<br>construction company</h1>
             <div>
               <button type="button" class="btn btn-primary">Get Started</button>
             </div>
@@ -62,7 +64,7 @@
             src="https://demo.accesspressthemes.com/construction/wp-content/uploads/2016/09/construction-new-slider-11.jpg"
             class="d-block w-100 img" alt="...">
           <div class="box">
-            <h1>we are leading the way<br>construction work</h1>
+            <h1 class="text-dark">we are leading the way<br>construction work</h1>
             <div>
               <button type="button" class="btn btn-primary">Get Started</button>
             </div>
@@ -124,10 +126,14 @@
     </div>
 
     <div class="container">
-      <div class="row m-0 py-5 my-4">
+      <div class="row img-box m-0 py-5 my-4">
         <div class="col-md-4 p-0"><img
             src="https://images.pexels.com/photos/2219035/pexels-photo-2219035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="" class="w-100"></div>
+            alt="" class="w-100">
+          <!-- <div class="overlay">
+              <div class="text">House Renovation</div>
+            </div> -->
+        </div>
         <div class="col-md-4 p-0"><img
             src="https://images.pexels.com/photos/2219035/pexels-photo-2219035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="" class="w-100"></div>
@@ -149,38 +155,150 @@
   </section>
 
   <!-- services section -->
-  <div class="services">
+  <div id="services">
     <div class="content d-flex flex-column align-items-center justify-content-center">
       <h1>SERVICES</h1>
       <div class="line mt-3"></div>
       <p class="text-center m-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde
         impedit,<br>necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
     </div>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card p-4 border-0" style="width: 18rem;">
-          <img src="https://www.kindpng.com/picc/m/80-804294_pre-construction-icon-01-pre-construction-icon-hd.png" alt="">
-          <div class="card-body">
-            <h5 class="card-title">PRE-CONSTRUCTION</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <!-- cards -->
+    <div class="cards-content d-flex align-items-center justify-content-evenly mt-5">
+      <div class="card border-0" style="width: 20rem;">
+        <img src="./80-804294_pre-construction-icon-01-pre-construction-icon-hd-removebg-preview.png" alt=""
+          class="img-size">
+        <div class="card-body">
+          <h5 class="card-title text-center">PRE-CONSTRUCTION</h5>
+          <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <div class="text-center">
             <a href="#" class="btn btn-outline-primary border-2">Learn More</a>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-
+      <div class="card border-0" style="width: 20rem;">
+        <img src="./80-804294_pre-construction-icon-01-pre-construction-icon-hd-removebg-preview.png" alt=""
+          class="img-size">
+        <div class="card-body">
+          <h5 class="card-title text-center">PRE-CONSTRUCTION</h5>
+          <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <div class="text-center">
+            <a href="#" class="btn btn-outline-primary border-2">Learn More</a>
+          </div>
+        </div>
       </div>
-      <div class="col-md-4">
-
+      <div class="card border-0" style="width: 20rem;">
+        <img src="./80-804294_pre-construction-icon-01-pre-construction-icon-hd-removebg-preview.png" alt=""
+          class="img-size">
+        <div class="card-body">
+          <h5 class="card-title text-center">PRE-CONSTRUCTION</h5>
+          <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <div class="text-center">
+            <a href="#" class="btn btn-outline-primary border-2">Learn More</a>
+          </div>
+        </div>
       </div>
     </div>
-  
-  </div>
-
- 
-
+    <div class="button-style text-center m-5">
+      <a href="#" class="btn btn-primary border-1">View All Services</a>
+    </div>
 
 
+    <!-- happy customers section -->
+    <section id="customers" class="py-5">
+      <div class="content d-flex flex-column align-items-center justify-content-center">
+        <h1>HAPPY CUSTOMER SAYS</h1>
+        <div class="line mt-3"></div>
+        <p class="text-center m-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde
+          impedit,<br>necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 p-5 customer-description">
+            <img
+              src="https://images.pexels.com/photos/3701992/pexels-photo-3701992.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="">
+            <div class="customer_content">
+              <h3 class="text-center">Jane Doe, XYZ Inc.</h3>
+              <p class="text-center">“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit,
+                necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.”</p>
+            </div>
+
+          </div>
+          <div class="col-md-6 p-5 customer-description">
+            <img
+              src="https://images.pexels.com/photos/3701992/pexels-photo-3701992.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="">
+            <div class="customer_content">
+              <h3 class="text-center">Jane Doe, XYZ Inc.</h3>
+              <p class="text-center">“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit,
+                necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.”</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <section id="footer" class="bg-dark py-4">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-md-3 d-flex mt-3">
+            <p class="text-white">Copyright &copy;2022 All rights reserved | This template is made with<span
+                class="material-icons text-danger">favorite</span>by</p>
+          </div>
+          <div class="col-md-3">
+            <ul class="list-unstyled">
+              <li class="text-white p-2">
+                <span class="d-block">Address:</span>
+                <span>34 Street Name, City Name Here, United States</span>
+              </li>
+              <li class="text-white p-2">
+                <span class="d-block">Phone:</span>
+                <span>8421681755</span>
+              </li>
+              <li class="text-white p-2">
+                <span class="d-block">Fax:</span>
+                <span>9845172165</span>
+              </li>
+              <li class="text-white p-2">
+                <span class="d-block">E-mail:</span>
+                <span>info@yourdomain.com</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 mt-3">
+            <h6 class="text-white">Quick Links</h6>
+            <ul class="list-unstyled">
+              <li class="p-2"><a href="#" class="text-decoration-none">About</a></li>
+              <li class="p-2"><a href="#" class="text-decoration-none">Services</a></li>
+              <li class="p-2"><a href="#" class="text-decoration-none">Works</a></li>
+              <li class="p-2"><a href="#" class="text-decoration-none">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mt-3">
+            <h6 class="text-white">Social</h6>
+            <ul class="list-unstyled d-flex mt-3">
+              <li>
+                <a href="" class="p-2 border border-white rounded-circle"><span><i
+                      class="fa-brands fa-twitter"></i></span></i></a>
+              </li>
+              <li>
+                <a href="" class="p-2 m-2 border border-white rounded-circle"><span><i
+                      class="fa-brands fa-facebook"></i></span></a>
+              </li>
+              <li>
+                <a href="" class="p-2 border border-white rounded-circle"><span><i
+                      class="fa-brands fa-linkedin"></i></span></a>
+              </li>
+              <li>
+                <a href="" class="p-2 m-2 border border-white rounded-circle"><span><i
+                      class="fa-brands fa-instagram"></i></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 
@@ -200,9 +318,14 @@
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
 
 </body>
 
